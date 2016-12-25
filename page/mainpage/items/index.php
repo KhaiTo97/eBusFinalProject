@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('config.php');
+include('home/s3568988/public_html/page/items/config.php');
 
 if(isset($_GET['do'])){ // check request from page forms
 	$action = $_GET['do'];

@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-      <!-- compatitbility meta -->
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <!--  Mobile meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Simple shopping cart - Discussdesk</title>
-
-   <!--[if lt IE 9]>
- <script src="js/html5shiv.min.js"></script> 
-<script src="js/respond.min.js"></script>
-    <![endif]-->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-<link rel="stylesheet" type="text/css" href="css/style.css"/>
-<script type="text/javascript" src="js/jquery.js"></script>
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-</head>
-
-<body>
+<?php
+include_once "/home/s3568988/public_html/setting/config.php";
+?>
  
 	<div class="container" >
     <?php if(@$msg){ ?>
@@ -82,7 +61,7 @@
 <div class="panel panel-default">
      <div class="panel-heading item_name">Key cap </div>
   <div class="panel-body">
- <img src="img/keycap/1976.jpg" width="243" class="img-thumbnail img-responsive item_thumb"><br> 
+ <img src="/home/s3568988/public_html/page/mainpage/items/img/keycap/1976.jpg" width="243" class="img-thumbnail img-responsive item_thumb"><br> 
      <p class='input-sm clearfix'>Description of the product </p><span class='row'></span>
   </div>
   <div class="panel-footer"> <p class="item_price">$ 88</p>
@@ -142,5 +121,3 @@
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 
-</body>
-</html>
