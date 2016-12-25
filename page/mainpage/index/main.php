@@ -128,6 +128,7 @@ echo $display;
 */
 ?>
 <?php
+include_once $phppath_s."page/mainpage/items/item_list.php";
 include_once $phppath_s."page/mainpage/items/cart_template.php"
 ?>                    
 

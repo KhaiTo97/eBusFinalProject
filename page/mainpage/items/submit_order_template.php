@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-      <!-- compatitbility meta -->
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <!--  Mobile meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Simple shopping cart - Discussdesk</title>
-
-   <!--[if lt IE 9]>
- <script src="js/html5shiv.min.js"></script> 
-<script src="js/respond.min.js"></script>
-    <![endif]-->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-<link rel="stylesheet" type="text/css" href="css/style.css"/>
-<script type="text/javascript" src="js/jquery.js"></script>
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-</head>
-
-<body>
+<?php
+include_once "/home/s3568988/public_html/setting/config.php";
+?>
  
 	<div class="container" >
         <?php if(@$msg){ ?>
@@ -100,5 +79,3 @@
     </div>
     
     </div>
-</body>
-</html>

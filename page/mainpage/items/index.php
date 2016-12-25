@@ -119,7 +119,7 @@ if(isset($_SESSION['O_ID'])){
 } 
 
 // get the view code from template file
-include("cart_template.php");
+include_once $phppath_s."page/mainpage/items/cart_template.php";
 
 ?>
 

@@ -61,7 +61,7 @@ include_once "/home/s3568988/public_html/setting/config.php";
 <div class="panel panel-default">
      <div class="panel-heading item_name">Key cap </div>
   <div class="panel-body">
- <img src="/home/s3568988/public_html/page/mainpage/items/img/keycap/1976.jpg" width="243" class="img-thumbnail img-responsive item_thumb"><br> 
+ <img src="/public_html/page/mainpage/items/img/keycap/1976.jpg" width="334" class="img-thumbnail img-responsive item_thumb"><br> 
      <p class='input-sm clearfix'>Description of the product </p><span class='row'></span>
   </div>
   <div class="panel-footer"> <p class="item_price">$ 88</p>
