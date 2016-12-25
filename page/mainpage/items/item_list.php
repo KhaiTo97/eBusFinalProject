@@ -6,7 +6,7 @@ include_once "/home/s3568988/public_html/setting/config.php";
  <div>
  <h1>Keyboard</h1>
  <?php
- $dirname = "/public_html/page/mainpage/items/img/keyboard/";
+ $dirname = "/home/s3568988/public_html/page/mainpage/items/img/keyboard/";
  $image = scandir($dirname);
  $ignore = Array(".","..");
  foreach($image as $curimg){
